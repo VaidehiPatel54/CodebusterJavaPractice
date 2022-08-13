@@ -13,7 +13,7 @@ public class Test1 {
     void sapna() {
 
         try {
-            vishal();
+            vishal();// System.out.println(10 / 0);
         } catch (Exception e) {
             System.out.println(10 / 2);
         }

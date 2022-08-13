@@ -6,21 +6,21 @@ public class Test {
         m1();
 
     }
-    public static void m1(){
+
+    public static void m1() {
         try {
-            System.out.println(10 / 2);
+            System.out.println("bhav");
+            System.out.println(10 / 0);
             System.out.println("hello");
 
-        } catch (ArithmeticException ae  ) {
+        } catch (ArithmeticException ae   ) {
 
             System.out.println(10/2);
-            System.out.println("bhav");
-        }
-        catch (Exception aq){
+            System.out.println(10/0);
 
         }
         finally {
             System.out.println("codebuster");
         }
     }
-}
+    }

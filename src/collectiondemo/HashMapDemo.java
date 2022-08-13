@@ -20,8 +20,8 @@ public class HashMapDemo {
         languages.put("Javascript", 3);
         System.out.println("Hashmap : " + languages);
         System.out.println("----------------");
-       // access();
-        //access1();
+       //access();
+        access1();
         //changeKey();
         remove();
 
@@ -34,17 +34,17 @@ public class HashMapDemo {
         langaues.put(4, "ruby");
         //get() method to get value
         String value = langaues.get(2);
-        System.out.println("value at index : " + value);
+        System.out.println("37value at index : " + value);
     }
     public static void access1(){
         HashMap<Integer,String> languages= new HashMap<>();
         languages.put(1,"java");
         languages.put(2,"Python");
         languages.put(3,"javascript");
-        System.out.println("HashMap(42): "+ languages);
-        System.out.println("Keys(43) "+ languages.keySet());// return set view of keys using Keyset()
-        System.out.println("values(44) : "+languages.values());// retun set view of values using Values()
-        System.out.println("key value map(45) : "+ languages.entrySet());// return set view of key/value pairs using entryset()
+        System.out.println("44HashMap(42): "+ languages);
+        System.out.println("45Keys(43) "+ languages.keySet());// return set view of keys using Keyset()
+        System.out.println("46values(44) : "+languages.values());// retun set view of values using Values()
+        System.out.println("47key value map(45) : "+ languages.entrySet());// return set view of key/value pairs using entryset()
 
 
 

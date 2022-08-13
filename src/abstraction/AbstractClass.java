@@ -6,6 +6,10 @@ abstract class AbstractClass {
 
     abstract void sub();
 
+    public void m1(){
+
+    }
+
 
     }
 
